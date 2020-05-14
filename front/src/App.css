@@ -1,0 +1,164 @@
+body {
+  margin-top: 50px !important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Helvetica Neue ", sans-serif !important;
+  overflow-x: hidden;
+  background-color: rgba(137, 196, 244, 0.2);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Material UI Elements */
+
+.MuiAppBar-colorPrimary {
+  background-color: white !important;
+}
+
+.MuiIconButton-colorInherit {
+  color: grey !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: orange !important;
+}
+
+.MuiButton-containedSecondary {
+  background-color: orange !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: grey !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom-color: orange !important;
+}
+
+.MuiButton-containedSecondary {
+  color: black !important;
+}
+
+.MuiButton-contained.Mui-disabled {
+  opacity: 0.5;
+}
+
+.MuiPaper-rounded {
+  border-radius: 25px !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  padding-bottom: 10px;
+}
+
+.MuiButton-label {
+  font-weight: 700 !important;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
+
+.MuiTypography-h5 {
+  font-weight: 800 !important;
+  font-size: 2em !important;
+  padding-bottom: 8px !important;
+  border-bottom: 5px solid orange !important;
+}
+
+.MuiTypography-body1 {
+  font-family: "Helvetica Neue ", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+}
+
+.MuiListItem-button {
+  color: grey !important;
+}
+
+.MuiDrawer-paperAnchorLeft {
+  top: 65px !important;
+  width: 240px;
+}
+
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.side-menu-opened {
+  margin-left: 240px;
+}
+
+.side-menu-closed {
+  margin-left: 0px;
+}
+
+#side-menu-divider {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 2px -1px rgba(0,0,0,0.1) !important;
+}
+
+.MuiPaper-elevation16 {
+  box-shadow: none !important;
+}
+
+.MuiPaper-elevation8 {
+  top: 80px !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: grey !important;
+}
+
+.MuiBadge-badge {
+  z-index: 0 !important;
+}
+
+/* Notifications */
+
+.MuiBadge-colorSecondary {
+  background-color: orange !important;
+}

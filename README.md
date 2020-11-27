@@ -2,13 +2,15 @@
 
 Creating a digital workplace to feel like at the office with your remote coworkers!
 
+![backtothelivingroom hackaton poster](https://user-images.githubusercontent.com/45239771/100472356-64fa5d80-30dc-11eb-9dec-7eeeec1ad353.jpg)
+
 *Hackathon organized by 42 Entrepreneurs and School 42 from the 6th to 8th of May 2020*
 
-## Intro
+## Intro ℹ️
 
 Covid-19 sent us all back to our living room which turned into an office for most of us. The coworkers we used to see everyday are now pixels on our screen. We need the best tools to make our new workplace, a better place to work. **Why wouldn't you help develop these tools ?**
 
-## Stack
+## Stack 📚
 
 - Golang (draft server, not completed)
 - MongoDB (draft DB, not completed)
@@ -16,7 +18,7 @@ Covid-19 sent us all back to our living room which turned into an office for mos
 - Materialize-UI front library
 - Figma for prototyping/designs
 
-## What happened during the marathon
+## What happened during the marathon 🚧
 
 ### Night before it started
 
@@ -49,3 +51,7 @@ In the short time that we had, we lost time as we switched from our initial conc
 
 Here is a preview of the platform, to showcase what we managed to design and create in development:
 ![BACK2WORK preview](https://user-images.githubusercontent.com/45239771/99910715-df4b6c00-2cef-11eb-9e99-77680120b750.gif)
+
+> What you are seeing is mostly frontend work as we focused on presentation rather than the real backend logic behind the project, our goal was to convince first. > Our project got a lot of interest from the jury and other participants but unfortunately wasn't selected as the winner, it seems other participants were much more advanced in their project as it's been longer than just these few days they have been working on it, so they didn't really start from scratch as we did. 
+
+So pretty far, really happy with what we managed to come up with considering the really small amount of time that we had. Will definitely do other remote hackatons, was loads of fun (and work for sure)! ✌️
